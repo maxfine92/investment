@@ -1,12 +1,19 @@
 # investment
 
 The most recent project is "two_types.ipynb" and "only_prices.ipynb".
+
 The first one needs tickers to input. In the latest version (Jan 2022), it downloads the ticker list from SBp exchange, works with the file, and finally deletes it from your PC.
+
 Then after running all the cells we get 2 tables "boost.xlsx" and "growth.xlsx", both includes about 100+ companies.
+
 The first one is about small-cap fast growing companies with relatively high risk.
+
 The second one is about large growing companies with relatively low risk.
+
 All the companies inside are sorted by so called "Score" value. The more - the better. The score is calculated in a special manner, that can be seen in the code.
+
 Shortly, we take all the basic financial parameters, then tail very large positive and negative values, then normalize values from 0 to 1 and take the sum as a Score.
+
 
 ![image](https://user-images.githubusercontent.com/67582707/149946710-71041772-0c65-4f6c-8395-dd7b09cb3ab8.png)
 
